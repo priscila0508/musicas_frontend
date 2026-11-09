@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+}
+
+body {
+    background-color: #ffffff;
+    color: #1a1a1a;
+    padding: 30px;
+    max-width: 480px;
+    margin: 0 auto;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    margin-bottom: 24px;
+    padding-bottom: 12px;
+    border-bottom: 2px solid #5c5ae6;
+}
+
+h1 {
+    font-size: 1.8rem;
+    font-weight: 800;
+    color: #111;
+}
+
+header a {
+    color: #5c5ae6;
+    text-decoration: none;
+    font-size: 0.95rem;
+    font-weight: 700;
+}
+
+#listaMusicas {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.musica {
+    background-color: #ffffff;
+    border: 1px solid #d1d5db;
+    border-radius: 8px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.musica h2 {
+    font-size: 1.25rem;
+    font-weight: 700;
+    color: #111827;
+}
+
+.artista {
+    font-size: 0.95rem;
+    color: #374151;
+    font-weight: 500;
+}
+
+.detalhes {
+    font-size: 0.85rem;
+    color: #6b7280;
+    margin-bottom: 12px;
+}
+
+.acoes {
+    display: flex;
+    gap: 10px;
+}
+
+.editar {
+    display: inline-block;
+    border: 1.5px solid #5c5ae6;
+    color: #5c5ae6;
+    background-color: #fff;
+    text-decoration: none;
+    padding: 6px 16px;
+    border-radius: 6px;
+    font-size: 0.9rem;
+    font-weight: 600;
+    text-align: center;
+}
+
+.apagar {
+    border: 1.5px solid #dc2626;
+    color: #dc2626;
+    background-color: #fff;
+    padding: 6px 16px;
+    border-radius: 6px;
+    font-size: 0.9rem;
+    font-weight: 600;
+    cursor: pointer;
+}
